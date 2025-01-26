@@ -16,10 +16,14 @@
 
   <body>
     <header>
-      <div class="collapse bg-info" id="navbarHeader">
+      <div
+        class="collapse"
+        id="navbarHeader"
+        style="background-color: rgb(238, 244, 246)"
+      >
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
+            <!-- <div class="col-sm-8 col-md-7 py-4">
               <h4 class="text-dark">About Me</h4>
               <p class="text-muted">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -27,44 +31,47 @@
                 aut iusto, suscipit distinctio, magni enim nulla debitis magnam
                 maiores consequatur repudiandae qui.
               </p>
-            </div>
+            </div> -->
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-dark">Contact</h4>
+              <h4 class="text-dark">Link To:</h4>
               <ul class="list-unstyled">
                 <li>
-                  <a href="#" class="text-primary">Connect on LinkedIn</a>
+                  <a href="https://scotcorm.github.io/" class="text-primary"
+                    >Scott's Landing Page</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="text-primary">Follow me on Medium</a>
+                  <a
+                    href="https://scotcorm.github.io/cv/index.html"
+                    class="text-primary"
+                    >Resume Site</a
+                  >
                 </li>
-                <li><a href="#" class="text-primary">Email me</a></li>
+                <li>
+                  <a href="https://github.com/scotcorm" class="text-primary"
+                    >Git Hub</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-info bg-info shadow-sm">
+      <div
+        class="navbar navbar-info shadow-sm"
+        style="background-color: rgb(145, 207, 245)"
+      >
         <div class="container">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              aria-hidden="true"
-              class="me-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-              />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-            <strong>Portfolio</strong>
+            <img
+              src="img/corm.png"
+              width="50"
+              height="50"
+              class="d-block my-1"
+              alt="logo"
+            />
+
+            <strong>scotcorm</strong>
           </a>
           <button
             class="navbar-toggler"
@@ -83,187 +90,270 @@
 
     <main>
       <section class="py-5 container">
-        <div class="row py-lg-5">
-          <div class="px-5 col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Hog Data</h1>
-            <p class="lead text-muted">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-              veritatis, earum mollitia ratione, ex non nobis quod cum
-              repudiandae cumque dicta itaque doloribus! Aut quas provident
-              reiciendis nemo excepturi, sunt cupiditate magni temporibus alias
-              veniam atque ullam officiis, itaque quis beatae a? Nulla sed
-              aspernatur aliquid corporis error iusto ullam!
-            </p>
-            <p>
-              <a href="#" class="btn btn-sm btn-outline-info"
-                >Main call to action</a
-              >
-              <!-- <a href="#" class="btn btn-warning my-2">Secondary action</a> -->
+        <div class="row py-lg-5 bg-dark-subtle">
+          <h1 class="fw-bold font-size:3em display-block text-center">
+            Feral Swine Population Research: Challenges in Data Collection and
+            Reporting
+          </h1>
+          <div class="display-block">
+            <span class="byline col-lg-6 col-md-8 mx-auto"
+              >Feral swine (Sus scrofa (feral type) Linnaeus) represent a
+              significant ecological and agricultural challenge in the United
+              States, with an estimated population exceeding 6 million.
+              Recognized as one of the world's most destructive invasive
+              species, these animals pose substantial threats to agricultural
+              ecosystems and rural economies [1, 2].</span
+            >
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="py-5 container">
+        <div class="px-5 mx-auto">
+          <div class="pb-2 mx-auto h2">Data Collection Challenges</div>
+          <div>
+            <p class="mx-auto">
+              As wild animals, feral swine are resistant to being tracked and
+              counted, and their behaviors change when they are hunted. As Falyn
+              Owens, a wildlife biologist with the North Carolina Wildlife
+              Resources Commission, candidly explains, "We don't in North
+              Carolina have a good estimate of the population of feral swine
+              across the state because it's a really, really hard number to pin
+              down" [3].
             </p>
           </div>
-          <div class="col-lg-6 col-md-8 mx-auto">
+        </div>
+
+        <div class="row py-lg-5">
+          <div class="px-5 col-lg-6 col-md-8 mx-auto">
+            <div class="pb-2 mx-auto h2">
+              Preferred Approach: Report Sightings
+            </div>
+            <p class="lead text-muted">
+              What seems to be the best of the current approaches, for research
+              purposes, relies heavily on reported observations and consistent
+              documentation. The University of Georgia's Center for Invasive
+              Species and Ecosystem Health's Early Detection & Distribution
+              Mapping System (EDDMapS) offers records dated July 1, 1982, to
+              October 30, 2024, and include validated data entered by informed
+              observers and made freely available to everyone on their
+              website.[4].
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-8 mx-auto py-3">
             <div class="chart">
               <canvas id="myChart"></canvas>
             </div>
           </div>
         </div>
       </section>
-      <div class="album py-5 bg-light">
+      <div class="album py-5">
         <div class="container">
+          <div class="px-5 pb-2 mx-auto h2">Methodological Reflection</div>
           <div>
-            <p class="px-5 mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              consequuntur ullam sint reiciendis nulla exercitationem
-              consequatur sapiente alias unde id animi repellat molestias quod
-              repellendus, laborum vitae consectetur labore numquam totam ut ex!
-              Inventore accusamus ipsa, unde deserunt quis quisquam aperiam
-              aliquid, voluptate illo repellendus omnis accusantium architecto
-              beatae? Ut.
+            <p class="px-5 py-2 mx-auto">
+              Lack of standardization is causing researchers to miss
+              opportunities, and data gathered about feral hogs is not always
+              useful.
             </p>
+            <ol class="px-5 list-group list-group-numbered">
+              <li class="list-group-item border border-0">
+                The Arkansas Department of Agriculture records "removal" data on
+                the number of feral hogs that are killed, for instance, but
+                other states refer to killing hogs as "harvesting" or do not
+                track those numbers at all.[5]
+              </li>
+              <li class="list-group-item border border-0">
+                How population data is formatted is also important, especially
+                if we are comparing results from one state to another: Texas
+                reports "about 2.6 million" feral swine [6] Georgia estimates
+                "200,000 to 600,000" [7] Florida indicates "over one-half
+                million."[8] <br />If some report the high data, some the low,
+                others what is observed, and still others the estimated number
+                or a range for the population data, then it is much harder for
+                researchers to make useful conclusions.
+              </li>
+              <li class="list-group-item border border-0">
+                Some of the most useful materials that I found online were
+                charts and graphs found on hunting sites. While such sources may
+                provide valuable insights, they often lack rigorous scientific
+                documentation and verifiability. Comparative analysis of
+                multiple sources, including specialized hunting websites and
+                state-level reports, reveals both the challenges and potential
+                in feral swine population tracking.
+              </li>
+            </ol>
+            <p class="px-5 py-2 mx-auto">
+              In all fairness, sites like backfire.tv or captainexperiences.com
+              are doing a great job meeting their goal as a resource for
+              hunters. I just wish that they cited their sources: especially
+              considering the fact that news sites and students are linking to
+              their very clear and useful data.[9,10]<br />
+              Below, please find a chart that I put together based on the best
+              feral hog population information that I was able to find online,
+              and a list of the references that I used.
+            </p>
+          </div>
+        </div>
 
+        <div
+          class="container"
+          style="position: relative; margin: auto; width: 80vw"
+        >
+          <canvas id="myChart2"></canvas>
+        </div>
+        <div class="album">
+          <div class="container">
+            <div class="px-5 pt-5 pb-2 mx-auto h2">Conclusion</div>
             <p class="px-5 pb-5 mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              consequuntur ullam sint reiciendis nulla exercitationem
-              consequatur sapiente alias unde id animi repellat molestias quod
-              repellendus, laborum vitae consectetur labore numquam totam ut ex!
-              Inventore accusamus ipsa, unde deserunt quis quisquam aperiam
-              aliquid, voluptate illo repellendus omnis accusantium architecto
-              beatae? Ut.
+              The study of feral swine populations is important, and requires
+              continued methodological refinement. It would benefit from
+              interdisciplinary collaboration, and standardized reporting
+              mechanisms to develop more accurate, reliable and useful data,
+              even if we are never going to be able to exactly track
+              populations.
             </p>
           </div>
+        </div>
+      </div>
+      <div class="album py-5 px-5">
+        <div class="container px-5">
+          <div class="px-2 pb-2 mx-auto h2">References</div>
+          <div>
+            <ul class="list-group">
+              <li class="list-group-item border border-0">
+                1. United States Department of Agriculture, Animal and Plant
+                Health Inspection Service. (n.d.). History of feral swine in the
+                Americas.
+                https://www.aphis.usda.gov/operational-wildlife-activities/feral-swine/distribution
+              </li>
+              <li class="list-group-item border border-0">
+                2. United States Department of Agriculture, Southwest Climate
+                Hub. (n.d.). Feral swine bomb.
+                https://www.climatehubs.usda.gov/hubs/southwest/topic/feral-swine-bomb/li>
+              </li>
 
-          <div
-            class="container"
-            style="position: relative; margin: auto; height: 80vh; width: 80vw"
-          >
-            <canvas id="myChart2"></canvas>
+              <li class="list-group-item border border-0">
+                3. Talton, T. (2023, November 27). Feral hogs a largely unseen
+                but costly problem in state. Coastal Review.
+                https://coastalreview.org/2023/11/feral-hogs-a-largely-unseen-but-costly-problem-in-state/
+              </li>
+              <li class="list-group-item border border-0">
+                4. University of Georgia Center for Invasive Species and
+                Ecosystem Health. (n.d.). Early Detection & Distribution Mapping
+                System (EDDMapS).
+                https://www.eddmaps.org/distribution/List.cfm?sub=3874
+              </li>
+              <li class="list-group-item border border-0">
+                5. Arkansas Department of Agriculture. (n.d.). Feral hog
+                population and removal data.
+                https://agriculture.arkansas.gov/arkansas-department-of-agriculture-services/feral-hog/
+              </li>
+              <li class="list-group-item border border-0">
+                6. Texas Farm Bureau. (n.d.). Controlling feral hogs.
+                https://texasfarmbureau.org/controlling-feral-hogs/
+              </li>
+              <li class="list-group-item border border-0">
+                7. University of Georgia Extension. (2020, January). Feral hogs.
+                https://site.extension.uga.edu/townsandunionag/2020/01/feral-hogs/
+              </li>
+              <li class="list-group-item border border-0">
+                8. North Palm Beach County Invasive Species. (n.d.). Feral hogs:
+                A growing problem.
+                https://www.npbcid.org/feral-hogs-a-growing-problem
+              </li>
+              <li class="list-group-item border border-0">
+                9. Backfire. (n.d.). Best US states for hunting hogs, plus laws
+                and seasons. https://backfire.tv/best-states-for-hog-hunting/
+              </li>
+              <li class="list-group-item border border-0">
+                10. Captain Experiences. (n.d.). States with the biggest wild
+                hog problem.
+                https://captainexperiences.com/blog/states-with-biggest-wild-hog-problem
+              </li>
+              <li class="list-group-item border border-0">
+                11. North Carolina Department of Agriculture. (n.d.). Feral
+                swine information.
+                https://www.ncagr.gov/divisions/veterinary/FeralSwine/Learn
+              </li>
+              <li class="list-group-item border border-0">
+                12. Farm Journal's Pork Business. (n.d.). Meet Mississippi's
+                yawt-yawt wild pigs nightmare and hunting legend.
+                https://www.porkbusiness.com/news/industry/meet-mississippis-yawt-yawt-wild-pigs-nightmare-and-hunting-legend-making
+              </li>
+              <li class="list-group-item border border-0">
+                13. Oklahoma Wildlife Department. (n.d.). Feral hogs hunting
+                information.
+                https://www.wildlifedepartment.com/hunting/feral-hogs
+              </li>
+              <li class="list-group-item border border-0">
+                14. Bowhunting.net. (n.d.). Number of feral hogs per state.
+                https://bowhunting.net/2023/02/number-of-feral-hogs-per-state/
+              </li>
+              <li class="list-group-item border border-0">
+                15. Coastal Review. (2023, November 27). Feral hogs in North
+                Carolina.
+                https://coastalreview.org/2023/11/feral-hogs-a-largely-unseen-but-costly-problem-in-state/
+              </li>
+              <li class="list-group-item border border-0">
+                16. Louisiana Wildlife and Fisheries. (n.d.). Feral hogs.
+                https://www.wlf.louisiana.gov/page/feral-hogs
+              </li>
+              <li class="list-group-item border border-0">
+                17. Sacramento Bee. (n.d.). Wild hogs in California.
+                https://www.sacbee.com/news/california/article282384908.html
+              </li>
+              <li class="list-group-item border border-0">
+                18. South Carolina Department of Natural Resources. (n.d.). Wild
+                pig information. https://www.dnr.sc.gov/wildlife/hog/index.html
+              </li>
+              <li class="list-group-item border border-0">
+                19. California Wildlife Agency. (n.d.). Wild pig conservation.
+                https://wildlife.ca.gov/Conservation/Mammals/Wild-Pig
+              </li>
+            </ul>
           </div>
-
-          <!-- <div class="card border-info shadow-sm">
-              <div class="col-lg-8 col-md-8 mx-auto">
-                <div class="card-body">
-                  <canvas id="myChart2"></canvas>
-                </div>
-              </div> -->
-          <!-- <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  role="img"
-                >
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Iste libero, odio natus ut vitae, labore suscipit deleniti
-                    voluptatum fugiat explicabo voluptatem unde hic? Nemo
-                    temporibus animi deleniti id reiciendis cupiditate!
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-info">
-                        View Demo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-warning"
-                      >
-                        Git Repo
-                      </button>
-                    </div>
-                    <small class="text-muted">Bootstrap</small>
-                  </div>
-                </div> -->
-          <!-- </div> -->
-
-          <!-- <div class="col">
-              <div class="card border-info shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  role="img"
-                >
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Magnam error culpa dicta necessitatibus voluptatum aliquam
-                    sapiente iste ratione impedit, nostrum voluptates atque amet
-                    id quas esse vero. Reprehenderit, cumque facilis!
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-info">
-                        View Demo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-warning"
-                      >
-                        Git Repo
-                      </button>
-                    </div>
-                    <small class="text-muted">JavaScript</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-info shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  role="img"
-                >
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Animi est dicta officia? Quod mollitia animi, consectetur
-                    voluptate provident vitae illum nostrum minima quos. Iure
-                    rerum, perspiciatis corporis quia earum necessitatibus.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-info">
-                        View Demo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-warning"
-                      >
-                        Git Repo
-                      </button>
-                    </div>
-                    <small class="text-muted">React</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </main>
 
-    <footer class="text-muted py-5">
+    <footer class="text-muted py-5 bg-light">
       <div class="container">
         <p class="float-end mb-1">
           <a href="#">Back to top</a>
         </p>
-        <p class="mb-1">
-          This sample code was modified from a template that is &copy;
-          Bootstrap.
+
+        <p
+          xmlns:cc="http://creativecommons.org/ns#"
+          xmlns:dct="http://purl.org/dc/terms/"
+        >
+          <span property="dct:title"
+            >Feral Swine Population Research: Challenges in Data Collection and
+            Reporting</span
+          >
+          by <span property="cc:attributionName">Scott Cormier</span> is
+          licensed under
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+            target="_blank"
+            rel="license noopener noreferrer"
+            style="display: inline-block"
+            >CC BY 4.0<img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                vertical-align: text-bottom;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+              alt="" /><img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                vertical-align: text-bottom;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+              alt=""
+          /></a>
         </p>
       </div>
     </footer>
