@@ -11,23 +11,24 @@ There's a lot of information available online, but the data had some interesting
 
 ```
 FeralHogDataSite
-  -img
-    -corm.png
-  -node_modules
-    -@kurkle
-      -color
-        -dist
-    -chart.js
-      -auto
-      -dist
-      -helpers
-      -LICENSE.md
-      {} package.json
-      README.md
-    {} .package-lock.json
-  -index.html
-  -package-lock.json
-  -style.css
+|-img
+|  _|-corm.png
+|-node_modules
+|  |-@kurkle
+|    |-color
+|       |-dist
+|  |-chart.js
+|     |-auto
+|     |-dist
+|     |-helpers
+|     LICENSE.md
+|     {} package.json
+|     README.md
+|  _|-{}.package-lock.json
+| -index.html
+| -package-lock.json
+| -package.json
+| -style.css
 ```
 
 
