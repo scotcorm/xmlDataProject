@@ -4,3 +4,21 @@
   justify-content: center;
   /* height: 100vh; */
 }
+
+.swine-image {
+  width: 275px;
+  float: left;
+  shape-outside: square;
+  margin-right: 1rem;
+  /* margin-bottom: 1rem; */
+  margin-top: 1rem;
+}
+
+.swine-image-two {
+  width: 275px;
+  float: right;
+  shape-outside: square;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
