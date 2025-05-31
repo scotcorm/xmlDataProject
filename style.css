@@ -11,7 +11,8 @@
   shape-outside: square;
   margin-right: 1rem;
   /* margin-bottom: 1rem; */
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .swine-image-two {
@@ -21,6 +22,9 @@
   margin-right: 1rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
+  /* margin: auto; 
+  width: 50%; 
+  padding: 1rem; */
 }
 
 .chartBox {
