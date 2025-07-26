@@ -1,18 +1,32 @@
-# Web page titled: Feral Swine Population Research: Challenges in Data Collection and Reporting
-## Deployed at https://scotcorm.github.io/feralHogDataSite/
-## Built with Bootstrap, original site foundation based on a Bootstrap Example from: https://getbootstrap.com/docs/5.2/examples/
+# Web page titled: XML Data Project with JavaScript
+## Deployed at https://scotcorm.github.io/xmlDataProject/
+## Original site foundation based on a Bootstrap Example from: https://getbootstrap.com/docs/5.2/examples/ 
 
 ## About
-After a conversation about feral hogs in Louisiana and how they damage rice fields, I became interested enough in the subject to do some research.  
-There's a lot of information available online, but the data had some interesting problems, and so I built this web page.  
+This site uses JavaScript, so that I could experiment with different ways of presenting XML data online.  So far, and in many ways, I prefer using XML and Relational Databases like I did in an earlier project: https://scotcorm.github.io/cv/textProjects/courseProjectFinal/parksCompleteFinal.html 
 
 
 # Structure
 
 ```
-FeralHogDataSite
+XMLDATAPROJECT
+|-images
+|  |-scotcorm_books1.png
+|  |-scotcorm_books2.png
+|  |-scotcorm_books3.png
+|  |-scotcorm_books4.png
+|  |-scotcorm_books5.png
+|  |-scotcorm_books6.png
+|  |-scotcorm_books7.png
+|  |-scotcorm_books8.png
+|  |-scotcorm_books9.png
+|  |-scotcorm_books10.png
+|  |-scotcorm_books11.png
+|  |-scotcorm_books12.png
+|  |-scotcorm_books13.png
+|  |-scotcorm_books14.png
 |-img
-|  _|-corm.png
+|  |-corm.png
 |-node_modules
 |  |-@kurkle
 |    |-color
@@ -24,7 +38,10 @@ FeralHogDataSite
 |     LICENSE.md
 |     {} package.json
 |     README.md
-|  _|-{}.package-lock.json
+|  |-jquery
+| _|-{}.package-lock.json
+|-data.xml
+|-favicon.png
 | -index.html
 | -package-lock.json
 | -package.json
