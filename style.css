@@ -94,3 +94,23 @@ img {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+#content {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
