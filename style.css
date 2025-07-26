@@ -95,7 +95,8 @@ img {
   padding-bottom: 2rem;
 }
 
-#content {
+#content,
+#content2 {
   overflow: auto;
 }
 
@@ -113,4 +114,50 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
   background: orange;
+}
+
+/* .wrapper1,
+.wrapper2 {
+  width: 1200px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.wrapper1 {
+  height: 20px;
+}
+.wrapper2 {
+  height: 2000px;
+}
+
+.div1 {
+  width: 1500px;
+  height: 2000px;
+}
+
+.div2 {
+  width: 1500px;
+  height: 2000px;
+  background-color: #88ff88;
+  overflow: auto;
+} */
+
+.headline-with-line {
+  position: relative; /* Essential for positioning the pseudo-element */
+  padding-bottom: 10px; /* Add space for the line */
+}
+
+.headline-with-line::after {
+  content: ''; /* Required for pseudo-elements */
+  display: block; /* Makes the pseudo-element a block-level element */
+  height: 2px; /* Thickness of the line */
+  width: 100%; /* Width of the line, adjust as needed */
+  background-color: orange; /* Color of the line */
+  position: absolute; /* Position relative to the parent (.headline-with-line) */
+  bottom: 0; /* Place the line at the bottom of the headline */
+  left: 0; /* Align the line to the left */
+}
+
+.wrapper1 {
+  margin-top: 2rem;
 }
