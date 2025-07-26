@@ -3,7 +3,7 @@
 ## Original site foundation based on a Bootstrap Example from: https://getbootstrap.com/docs/5.2/examples/ 
 
 ## About
-This site uses JavaScript, so that I could experiment with different ways of presenting XML data online.  So far, and in many ways, I prefer using XML and Relational Databases like I did in an earlier project: https://scotcorm.github.io/cv/textProjects/courseProjectFinal/parksCompleteFinal.html 
+This site uses JavaScript, so that I could experiment with different ways of presenting XML data online.  So far, I prefer using XML and Relational Databases like I did in an earlier project: https://scotcorm.github.io/cv/textProjects/courseProjectFinal/parksCompleteFinal.html 
 
 
 # Structure
